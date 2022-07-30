@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  onsubmit="return validate()" method="post" enctype="">
+        <fieldset>
+            <legend>edit package</legend>
+            <table>
+                <tr>
+                    <td>id</td></tr>
+                    <tr>
+                    <td><input type="text" name="id" id ="id"value=""></td>
+                </tr>
+                <tr>
+                    <td>from</td>
+                    </tr>
+                    <tr>
+                    <td><input type="text" name="from" id="from"value=""></td>
+                </tr>
+                
+                <tr>
+                    <td>to</td></tr>
+                    <tr>
+                    <td><input type="text" name="to" id="to" value=""></td>
+                </tr>
+                <tr>
+                    <td>time</td></tr>
+                    <tr>
+                    <td><input type="text" name="time" id="time" value=""></td>
+                </tr>
+                
+                    <td>
+                        <input type="submit" name="" id ="submit"value="SignUp">
+                        <a href="signup.html"> Signin </a>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+    <script>
+        function validate()
+        {
+            let leaving = document.getElementById("id").value;
+
+            let going = document.getElementById("from").value;
+
+            let time = document.getElementById("to").value;
+
+            let date = document.getElementById("time").value;
+
+            
+            
+
+            if(id != "")
+            {
+                return true;
+            }
+            else
+            {
+                alert("null value");
+                return false;
+            }
+            
+            if(from != "")
+            {
+                return true;
+            }
+            else
+            {
+                alert("null value");
+                return false;
+            }
+            
+            if(to != "")
+            {
+                return true;
+            }
+            else
+            {
+                alert("null value");
+                return false;
+            }
+            
+            if(time != "")
+            {
+                return true;
+            }
+            else
+            {
+                alert("null value");
+                return false;
+            }
+
+        }        
+
+    </script>
+</body>
+</html>
