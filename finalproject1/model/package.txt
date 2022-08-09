@@ -1,0 +1,3 @@
+1|Dhaka|Cox's Bazar|4 Days |3000
+2|Dhaka|Sundarbans|4 Days |5000
+3|Dhaka|Srimangal|5 Days |7000
